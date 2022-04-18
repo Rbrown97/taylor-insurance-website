@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Fog from "./assets/Fog3.png";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/*<div className="secondBackground"><App/></div>*/}
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

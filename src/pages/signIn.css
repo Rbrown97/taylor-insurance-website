@@ -1,0 +1,27 @@
+.signIn2{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 50%;
+    justify-content: center;
+    margin-top: 13%;
+    margin-bottom: 13%;
+}
+
+.signIn2 .signInForm{
+    /*background-color: rgba(135, 132, 127, 0.85);*/
+	/*background-color: rgba(78, 67, 63, 0.85);*/
+    background-color: rgba(122, 122, 122, 0.85);
+	color: #1c1c1c;
+	font-size: 100%;
+    padding: 25%;
+    margin-bottom: -24.8%;
+	border: 15px solid;
+	/*border-style: solid;*/
+	/*border-image: url("../assets/pexels-pixabay-301378.jpg") 500 stretch;*/
+    box-shadow: 0em 0.25em 0.5em 0em;
+    border-radius: 20%;
+}
+
+.signIn2 p{
+    font-weight: bold;
+}

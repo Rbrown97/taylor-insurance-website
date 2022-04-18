@@ -1,0 +1,66 @@
+.Footer{
+    /*background-image: url("../assets/pexels-pixabay-301378.jpg");*/
+    /*background-image: url("../assets/pexels-fwstudio-139306-2.jpg");
+	background-size: 5000px 500px;*/
+    /*background-color: #372D1F;*/
+    /*background-color: #302D29;*/
+    /*background-color: #4D4842;*/
+    background-color: #423E38;
+    border-top: black solid;
+    width: 100%;
+    padding-top: 0%;
+    margin-top: 0%;
+    /*background-color: black;*/
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+/*.Footer{
+    width: 100%;
+    height: 200px;
+    background-image: url("../assets/pexels-pixabay-301378.jpg");
+	background-size: 5000px 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}*/
+
+.socialMedia svg{
+    color: rgb(122, 122, 122);
+    margin: 0.5%;
+    font-size: 70px;
+    background: rgba(0, 0, 0, 0.5);
+    border: rgba(0, 0, 0, 0.5) solid;
+    border-radius: 5%;
+    cursor: pointer;
+    margin-bottom: -0.25%;
+    margin-top: 1%;
+}
+
+.Footer .contactInfo{
+    font-size: 80%;
+    margin-left: 75%;
+    margin-top: -3.5%;
+    margin-bottom: -0.25%;
+    margin-right: 10%;
+    color: rgb(122, 122, 122);
+    background: rgba(0, 0, 0, 0.5);
+    border: rgba(0, 0, 0, 0.5) solid;
+}
+
+.Footer .contactInfoH3{
+    text-decoration: underline;
+}
+
+.Footer .copyRight{
+    color: rgb(122, 122, 122);
+    /*color: #7a7a7a;*/
+    border: rgba(0, 0, 0, 0.5) solid;
+    background: rgba(0, 0, 0, 0.5);
+}
